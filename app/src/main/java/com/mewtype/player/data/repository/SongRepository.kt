@@ -19,7 +19,7 @@ class SongRepository(
 ) {
     // ponytail: change this URL to your remote catalog JSON
     companion object {
-        private const val REMOTE_CATALOG_URL = "https://raw.githubusercontent.com/your-username/mewtype-player/main/songs.json"
+        private const val REMOTE_CATALOG_URL = "https://raw.githubusercontent.com/moxiuren/mewtype-player/main/app/src/main/assets/songs.json"
     }
 
     private val gson = Gson()
